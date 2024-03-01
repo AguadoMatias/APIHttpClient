@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { HttpService } from './services/http.service';
+import { Task } from './models/task';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +8,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'hola-mundo';
+  
+  title = 'Hola Mundo';
+  message = 'Nuestra primer App en Angular en la Academia Bromus';
+
 }
+
+
